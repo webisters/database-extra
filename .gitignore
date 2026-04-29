@@ -1,0 +1,11 @@
+.idea/
+build/
+raw-tests/
+vendor/
+.php-cs-fixer.cache
+.phpunit.cache
+.phpunit.result.cache
+composer.lock
+composer.phar
+phpstan.neon
+phpunit.xml

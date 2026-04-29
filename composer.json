@@ -1,0 +1,68 @@
+{
+    "name": "webisters/database-extra",
+    "description": "Webisters Database Extra Library",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "database",
+        "database-extra",
+        "extra",
+        "migration",
+        "migrator",
+        "seed",
+        "seeder"
+    ],
+    "authors": [
+        {
+            "name": "Hafiz Muhammad Moaz",
+            "email": "hafizmoazkhalid@gmail.com",
+            "homepage": "https://github.com/HafizMMoaz"
+        }
+    ],
+    "homepage": "https://webisters.com/packages/database-extra",
+    "support": {
+        "email": "support@webisters.com",
+        "issues": "https://github.com/webisters/database-extra/issues",
+        "forum": "https://github.com/webisters/forum",
+        "source": "https://github.com/webisters/database-extra",
+        "docs": "https://webisters.com"
+    },
+    "funding": [
+        {
+            "type": "Webisters Sponsor",
+            "url": "https://webisters.com/sponsor"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "webisters/cli": "*",
+        "webisters/database": "*",
+        "webisters/helpers": "*"
+    },
+    "require-dev": {
+        "webisters/coding-standard": "*",
+        "phpunit/phpunit": "^10.5"
+    },
+    "suggest": {
+        "fakerphp/faker": "Generates fake data for seeding"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Framework\\Database\\Extra\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Database\\Extra\\": "tests/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
+
+
